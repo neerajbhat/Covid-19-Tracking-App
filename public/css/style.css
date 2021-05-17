@@ -1,0 +1,62 @@
+body{
+    background-color: #212529;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+}
+h2{
+    color: #fff;
+    font-size: 20px;
+    margin: 15px;
+}
+.card-columns{
+    margin: 40px 0px;
+}
+.card-body{
+    color: #fff;
+    font-weight: 600;
+    height: 160px;
+}
+.card__name{
+    padding: 0;
+    margin: 5px;
+    font-size: 20px;
+}
+.card__name span{
+    font-size: 12px;
+}
+.card-body > .card__small {
+    font-size: 40px;
+    line-height: 3rem;
+}
+.table{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 480px) {
+    .card-columns{
+        margin: 40px 20px;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 780px) {
+    .card-body{
+        padding: 1rem;
+    }
+    .card-body > .card__name > span{
+        display: block;
+    }
+    .card__name{
+        padding: 0;
+        margin: 5px;
+        font-size: 16px;
+    }
+    .card__name span{
+        font-size: 12px;
+    }
+    .card-body > .card__small {
+        font-size: 25px;
+        line-height: 1.5rem;
+    }
+}
